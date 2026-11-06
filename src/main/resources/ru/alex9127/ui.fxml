@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.alex9127.UI">
+   <Canvas fx:id="canvas" height="600.0" layoutX="200.0" width="600.0" />
+   <TextField layoutX="80.0" layoutY="20.0" prefWidth="100.0" text="150" fx:id="x1field" />
+   <Label layoutX="20.0" layoutY="24.0" text="X1:" />
+   <TextField fx:id="y1field" layoutX="80.0" layoutY="70.0" prefWidth="100.0" text="200" />
+   <Label layoutX="20.0" layoutY="74.0" text="Y1:" />
+   <TextField layoutX="80.0" layoutY="120.0" prefWidth="100.0" text="350" fx:id="x2field" />
+   <Label layoutX="20.0" layoutY="124.0" text="X2:" />
+   <TextField fx:id="y2field" layoutX="80.0" layoutY="170.0" prefWidth="100.0" text="400" />
+   <Label layoutX="20.0" layoutY="174.0" text="Y2:" />
+   <TextField layoutX="80.0" layoutY="220.0" prefWidth="100.0" text="100" fx:id="x3field" />
+   <Label layoutX="20.0" layoutY="224.0" text="X3:" />
+   <TextField fx:id="y3field" layoutX="80.0" layoutY="270.0" prefWidth="100.0" text="500" />
+   <Label layoutX="20.0" layoutY="274.0" text="Y3:" />
+</AnchorPane>
